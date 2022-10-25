@@ -7,7 +7,7 @@
 参考 https://github.com/r00tSe7en/Flash-Pop
 ![image](https://user-images.githubusercontent.com/38282439/197719314-d685b6ec-b007-4097-a0a0-2f7e6463de53.png)
 
-此项目实现cs上线后自动隐藏功能
+此项目实现cs上线后自动隐藏钓鱼页面功能
 
 
 ## 使用方法
