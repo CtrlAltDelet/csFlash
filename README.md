@@ -1,2 +1,2 @@
 # csFlash
-适用于拿到webshellcs后渗透钓鱼
+适用于拿到webshell进行cs后渗透钓鱼
