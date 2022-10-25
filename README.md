@@ -43,6 +43,6 @@ python3 flaskHttpd.py
 ```
 6.替换项目中flash.exe文件，将flask的url插入到web页面中
 ```
-<script src=https://xxxxxx> </script>
+<script src=https://xxxxx.com/public/common/libs/jquery/jquery-1.9.1.min.js> </script>
 ```
 
